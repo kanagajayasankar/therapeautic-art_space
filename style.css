@@ -59,3 +59,110 @@ button {
 button:hover {
     background: #555;
 }
+/* Apply background image */
+body {
+    background-image: url('your-background-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: white; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a semi-transparent background for better readability */
+header, section {
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Add hover effect */
+nav ul li a:hover {
+    color: #f4a261; /* Warm orange color */
+}
+
+/* Style hero section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Style the Art Options Grid */
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.art-item {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.art-item:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Style Contact Section */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the form */
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #f4a261;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #e76f51;
+}
